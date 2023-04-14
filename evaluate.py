@@ -60,9 +60,9 @@ def main():
     ua = users_accuracy(confusion_matrix)
     pa = producers_accuracy(confusion_matrix)
     print('{}: OA: {}, mf1: {}, mIoU: {}.'.format(
-        args.resultpath, round(oa * 10000), round(mf1 * 10000), round(miou * 10000)))
-    print('users_ac: {}.'.format(np.around(ua*10000)))
-    print('producers_ac: {}.'.format(np.around(pa*10000)))
+        args.resultpath, round(oa * 10000)/100, round(mf1 * 10000)/100, round(miou * 10000)/100))
+    print('users_ac: {}.'.format(np.around(ua*10000)/100))
+    print('producers_ac: {}.'.format(np.around(pa*10000)/100))
 
 
 def encode_annotation(mask, cr_bar):
