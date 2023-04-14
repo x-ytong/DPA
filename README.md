@@ -45,7 +45,7 @@ usage: predict.py [-h] [--inputpath /.../] [--outputpath /.../]
 usage: evaluate.py [-h] [--labelpath /.../] [--resultpath /.../]
 ```
 ## Data
-The data of source and target domain can be downloaded from [Five-Billion-Pixels](https://x-ytong.github.io/project/Five-Billion-Pixels.html).
+The data of the source and target domain can be downloaded from [Five-Billion-Pixels](https://x-ytong.github.io/project/Five-Billion-Pixels.html).
 The city where the images in C-megacities are located:
 ```
 Beijing:
