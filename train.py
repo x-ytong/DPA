@@ -73,7 +73,8 @@ parser.add_argument('--multiprocessing-distributed', action='store_true', defaul
                          'multi node data parallel training')
 # target
 parser.add_argument('--target', default='None', type=str,
-                    help='target city')
+                    choices=['beijing', 'chengdu', 'guangzhou', 'shanghai', 'wuhan'],
+                    help='name of target city')
 parser.add_argument('--factor', default=0.5, type=float,
                     help='ratio of pseudo-label')
 
