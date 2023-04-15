@@ -29,7 +29,7 @@ color = [[  0,   0,   0],
          [200,   0, 200],       # garden land
          [150,   0, 250],       # arbor forest
          [150, 150, 250],       # shrub forest
-         [200, 150, 200],       # park land
+         [200, 150, 200],       # park
          [250, 200,   0],       # natural meadow
          [200, 200,   0],       # artificial meadow
          [  0,   0, 200],       # river
