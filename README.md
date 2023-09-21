@@ -17,7 +17,7 @@ usage: train.py [-h] [--source_dir /.../] [--target_dir /.../] [--target CITY_NA
                 [--workers N] [--gpu GPU_ID] [--multiprocessing-distributed]
                 [--factor PSEUDO_LABEL_RATIO]
 ```
-The data folder should be structured as follows:
+The data folder should be structured as follows (all files in folders other than the list folder are in the form of image patches; please refer to the data processing section of the article for more information on patch cropping):
 ```
 ├── source_dir/
 │   ├── image/
