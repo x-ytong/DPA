@@ -35,7 +35,7 @@ The data folder should be structured as follows (all files in folders other than
 |   ├── wuhan/
 ```
 ### Prediction
-The models trained for the five Chinese megacities can be downloaded from [model_DPA](https://1drv.ms/f/c/f2b433c2113dc80b/EkemWwiHH31LnH_BigAXG-kBkAlyo0RtCy8AtjUAggXP1g?e=q9gAih). The city where the input images are located needs to correspond to the model.
+The models trained for the five Chinese megacities can be downloaded from [model_DPA](https://drive.google.com/drive/folders/1qr98j4VXiaDNTfz4U76H-mTjLFzPWxdx?usp=sharing). The city where the input images are located needs to correspond to the model.
 ```
 usage: predict.py [-h] [--inputpath /.../] [--outputpath /.../]
                   [--modelname MODELNAME (e.g. unet_wuhan.pth.tar)]
